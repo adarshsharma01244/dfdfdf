@@ -10,6 +10,29 @@ body:
         placeholder: |
           Your description goes here...
 
+    - type: dropdown
+      attributes:
+        label: How did you install teagram?
+        options:
+          - AUR (yay)
+          - scoop
+          - apt-get
+          - nix
+          - Built from master
+      validations:
+        required: true
+
+    - type: dropdown
+      attributes:
+        label: On which operating system are you on?
+        options:
+          - Linux
+          - MacOS
+          - NixOS
+          - Windows
+      validations:
+        required: true
+    
     - type: textarea
       attributes:
           label: Steps to reproduce the bug 🐣
@@ -39,3 +62,11 @@ body:
         description: Add any other context about the problem here.
         placeholder: |
           Your additional context goes here...
+
+    - type: checkboxes
+      attributes:
+        label: Select the stuff that you have done
+        description: You may select more than one.
+        options:
+          - label: I am sure that there is no duplicate issue.
+          - label: I was too lazy to check for duplicate issues.  
