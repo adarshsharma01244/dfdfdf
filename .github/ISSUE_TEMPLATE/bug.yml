@@ -6,7 +6,7 @@ body:
     - type: textarea
       attributes:
         label: About the bug
-        description: A clear and concise description of about the bug
+        description: A clear and concise description about the bug
         placeholder: |
           Your description goes here...
 
@@ -15,9 +15,9 @@ body:
           label: Steps to reproduce the bug 🐣
           placeholder: |
             Steps to reproduce the behavior:
-            1. Open teagram
-            2. Choose this option on the screen
-            3. See the bug happening
+                1. Open teagram
+                2. Choose this option on the screen
+                3. See the bug happening
 
     - type: textarea
       attributes:
