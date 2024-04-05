@@ -11,13 +11,13 @@ body:
           Your description goes here...
 
     - type: textarea
-          attributes:
-              label: Steps to reproduce the bug 🐣
-              placeholder: |
-                Steps to reproduce the behavior:
-                1. Open teagram
-                2. Choose this option on the screen
-                3. See the bug happening
+      attributes:
+          label: Steps to reproduce the bug 🐣
+          placeholder: |
+            Steps to reproduce the behavior:
+            1. Open teagram
+            2. Choose this option on the screen
+            3. See the bug happening
 
     - type: textarea
       attributes:
