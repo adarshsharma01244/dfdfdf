@@ -54,7 +54,7 @@ body:
         label: Log
         description: Open up your terminal and type `teagram --log` to get the path to the log file, then send the contents of the log file.
         placeholder: |
-          Paste the contents of the log file here:
+          Paste the contents of the log file here...
 
     - type: textarea
       attributes:
