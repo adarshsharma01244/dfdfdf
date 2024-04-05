@@ -1,0 +1,27 @@
+name: "\U0001F4A1 Feature request"
+description: Suggest an awesome feature for teagram
+title: "\U0001F4A1 [FEAT]"
+labels: ["enhancement"]
+body:
+    - type: textarea
+      attributes:
+        label: Describe about your awesome feature idea.
+        description: A beautiful description about the feature (and problem if the feature is related to it) 
+        placeholder: |
+          Your beautiful idea here...
+        
+    - type: textarea
+      attributes:
+        label: How would it benefit other fellow users?
+        description: A concise description about its benefits.
+        placeholder: |
+          Your description goes here...
+
+    - type: textarea
+      attributes:
+        label: Additional context
+        description: Add any other context about the feature here.
+        placeholder: |
+          Your additional context goes here...
+        
+        
