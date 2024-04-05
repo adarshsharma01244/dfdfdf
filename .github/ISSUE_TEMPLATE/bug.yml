@@ -1,0 +1,41 @@
+name: "\U0001F41B Bug report"
+description: Create a report to help us improve
+title: "[BUG]"
+labels: ["bug"]
+body:
+    - type: textarea
+      attributes:
+        label: About the bug
+        description: A clear and concise description of about the bug
+        placeholder: |
+          Your description goes here...
+
+    - type: textarea
+          attributes:
+              label: Steps to reproduce the bug 🐣
+              placeholder: |
+                Steps to reproduce the behavior:
+                1. Open teagram
+                2. Choose this option on the screen
+                3. See the bug happening
+
+    - type: textarea
+      attributes:
+        label: What did you expect?
+        description: What did you expect to happen rather than it crashing?
+        placeholder: |
+          Your expectations goes here...
+
+    - type: textarea
+      attributes:
+        label: Log
+        description: Open up your terminal and type `teagram --log` to get the path to the log file, then send the contents of the log file.
+        placeholder: |
+          Paste the contents of the log file here:
+
+    - type: textarea
+      attributes:
+        label: Additional context 📝
+        description: Add any other context about the problem here.
+        placeholder: |
+          Your additional context goes here...
